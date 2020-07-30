@@ -1,3 +1,8 @@
+# Table Of Contents
+[Basic_Tools Overview](https://github.com/GameAddict23/Basic_Tools_Code/Basic_Tools Overview)
+[Specifics](https://github.com/GameAddict23/Basic_Tools_Code/Specifics)
+[Links](https://github.com/GameAddict23/Basic_Tools_Code/Links)
+
 # Basic_Tools Overview
 
 This project is essentially just a way to provide basic but helpful tools for me and possibly other people as well. These tools may or may not be useful, but that's up for you to decide. I appreciate any critique, even if it is harsh.
@@ -7,6 +12,9 @@ This project is essentially just a way to provide basic but helpful tools for me
 # Specifics
 
 As of 7/29/2020, this project will provide tools to print 1D arrays to a console/terminal, filter desired characters out of a string, order an array of numbers from least to greatest and greatest to least, finding numbers in an array, and convert 1D arrays to other types of arrays (currently int, double, decimal, string, and char). The code itself has quite a bit of documentation as well, although I will go over the main features here as well.
+
+*All of these methods and classes are found under the namespace Toolkit.
+*Basic_Tools is a public static class.
 
 1. public static void printArray(array)
     This method will take single dimensional arrays of types int, double, float, decimal, char, and string and print them out to the console/terminal. 
