@@ -11,6 +11,7 @@ As of 7/29/2020, this project will provide tools to print 1D arrays to a console
 1. Basic_Tools.printArray(array)
     This method will take arrays of types int, double, float, decimal, char, and string and print them out to the console/terminal. 
     Examples:
+    
         Basic_Tools.printArray(new int[] {1, 2, 3, 4, 5, 6});
         Output: {1, 2, 3, 4, 5, 6}
         
