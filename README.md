@@ -1,7 +1,7 @@
 # Table Of Contents
-[Basic_Tools Overview](https://github.com/GameAddict23/Basic_Tools_Code/blob/master/README#/Basic_ToolsOverview)
-[Specifics](https://github.com/GameAddict23/Basic_Tools_Code/Specifics)
-[Links](https://github.com/GameAddict23/Basic_Tools_Code/Links)
+[Basic_Tools Overview](https://github.com/GameAddict23/Basic_Tools_Code/blob/master/README.md#basic_tools-overview)
+[Specifics](https://github.com/GameAddict23/Basic_Tools_Code/blob/master/README.md#specifics)
+[Links](https://github.com/GameAddict23/Basic_Tools_Code/blob/master/README.md#links)
 
 # Basic_Tools Overview
 
