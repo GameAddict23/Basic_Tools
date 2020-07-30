@@ -7,7 +7,7 @@
 
 # Basic_Tools Overview
 
-This project is essentially just a way to provide basic but helpful tools for me and possibly other people as well. These tools may or may not be useful, but that's up for you to decide. I appreciate any critique, even if it is harsh.
+This project is built in C# under the .NET framework, and is essentially just a way to provide basic but helpful tools for me and possibly other people as well. These tools may or may not be useful, but that's up for you to decide. I appreciate any critique, even if it is harsh.
 
 *7/29/2020(M/D/Y) This is my first time creating and managing a repository as well as using Github, so just keep that in mind.
 
