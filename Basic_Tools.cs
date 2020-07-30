@@ -13,7 +13,10 @@ namespace ConsoleApp3
     /// </summary>
     public static class Basic_Tools
     {
-
+        /// <summary>
+        /// Prints a single dimensional array as such: "{x, y, z, etc.}"
+        /// </summary>
+        /// <param name="array"></param>
         public static void printArray(int[] array)
         {
              string text = "";
@@ -112,6 +115,7 @@ namespace ConsoleApp3
             Console.WriteLine("}"); 
         }
 
+        /*
         public static void printArray(int[,] array)
         {
             for (int i = 0; i < array.Length / 2; i++)
@@ -172,6 +176,7 @@ namespace ConsoleApp3
                 }
             }
         }
+        */
         /// <summary>
         /// Case sensitive, filters desired characters out of deisred string.
         /// </summary>
@@ -671,10 +676,17 @@ namespace ConsoleApp3
 
         /// <summary>
         /// A class containing methods to convert single dimensional arrays
-        /// from one data type to another (with the exception of converting to float).
+        /// from one data type to another (with the exceptions of converting to float
+        /// and certain invalid operations, such as converting from multi-character 
+        /// strings to char).
         /// </summary>
         public static class ConvertArray
         {
+            /// <summary>
+            /// Converts single dimensional array to an decimal array.
+            /// </summary>
+            /// <param name="array">Array to be converted.</param>
+            /// <returns>A converted copy of the original array.</returns>
             public static decimal[] ToDecimalArray(int[] array)
             {
                 decimal[] newArray = new decimal[array.Length];
@@ -735,6 +747,11 @@ namespace ConsoleApp3
                 return newArray;
             }
 
+            /// <summary>
+            /// Converts single dimensional array to an int array.
+            /// </summary>
+            /// <param name="array">Array to be converted.</param>
+            /// <returns>A converted copy of the original array.</returns>
             public static int[] ToIntArray(double[] array)
             {
                 int[] newArray = new int[array.Length];
@@ -795,6 +812,11 @@ namespace ConsoleApp3
                 return newArray;
             }
 
+            /// <summary>
+            /// Converts single dimensional array to a double array.
+            /// </summary>
+            /// <param name="array">Array to be converted.</param>
+            /// <returns>A converted copy of the original array.</returns>
             public static double[] ToDoubleArray(int[] array)
             {
                 double[] newArray = new double[array.Length];
@@ -855,6 +877,11 @@ namespace ConsoleApp3
                 return newArray;
             }
 
+            /// <summary>
+            /// Converts single dimensional array to a string array.
+            /// </summary>
+            /// <param name="array">Array to be converted.</param>
+            /// <returns>A converted copy of the original array.</returns>
             public static string[] ToStringArray(int[] array)
             {
                 string[] newArray = new string[array.Length];
@@ -915,6 +942,11 @@ namespace ConsoleApp3
                 return newArray;
             }
 
+            /// <summary>
+            /// Converts single dimensional array to a char array.
+            /// </summary>
+            /// <param name="array">Array to be converted.</param>
+            /// <returns>A converted copy of the original array.</returns>
             public static char[] ToCharArray(int[] array)
             {
                 char[] newArray = new char[array.Length];
